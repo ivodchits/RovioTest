@@ -13,9 +13,9 @@ at the moment. Hope this alligns with what you are looking for.
 
 The game has 3 control elements:
 
-Left Stick - moves the character
-Right Stick - used for aiming AND shooting if dragged all the way out
-Slide button - touching the screen anywhere besides the sticks results in sliding (dodging)
+<p>Left Stick - moves the character</p>
+<p>Right Stick - used for aiming AND shooting if dragged all the way out</p>
+<p>Slide button - touching the screen anywhere besides the sticks results in sliding (dodging)</p>
 
 -------------------------
 
@@ -64,16 +64,23 @@ Scriptable Objects, leaving only basic functions to MonoBehaviours.
 
 -------------------------
 
-Used third-party packages:
+<b>Used third-party packages:</b>
 
 MINIFANTASY - Dungeon (https://assetstore.unity.com/packages/2d/environments/minifantasy-dungeon-206693)
+
 2D Character - Astronaut (https://assetstore.unity.com/packages/2d/characters/2d-character-astronaut-182650)
+
 2D Skeleton - Isometric PixelArt Character (https://assetstore.unity.com/packages/2d/characters/2d-skeleton-isometric-pixelart-character-254596)
+
 Zenject (https://assetstore.unity.com/packages/tools/utilities/extenject-dependency-injection-ioc-157735)
 
-Used Unity packages:
+
+<b>Used Unity packages:</b>
 
 URP
+
 Cinemachine
+
 Input System
+
 Other default packages
