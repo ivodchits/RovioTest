@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4884fc2d35d44c7caca3c79c128da0ef, type: 3}
+  m_Name: PlayerSettings
+  m_EditorClassIdentifier: 
+  _movement:
+    _moveSpeed: 8
+    _slideInitialSpeed: 12
+    _acceleration: 0.5
+    _deceleration: 0.5
+    _slideDuration: 0.55
+    _slideSpeedCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.0016583747
+        value: 0.8982036
+        inSlope: 0.45134678
+        outSlope: 0.45134678
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.0972668
+      - serializedVersion: 3
+        time: 0.54395145
+        value: 0.9015057
+        inSlope: -0.5756712
+        outSlope: -0.5756712
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.14598672
+        outWeight: 0.3028259
+      - serializedVersion: 3
+        time: 0.70536935
+        value: 0.330038
+        inSlope: -1.7986041
+        outSlope: -1.7986041
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.18734848
+      - serializedVersion: 3
+        time: 1.0000104
+        value: 0.21376011
+        inSlope: -0.2773578
+        outSlope: -0.2773578
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.29219797
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  _camera:
+    _camDistance: 5
+    _maxCamAmplitude: 1.5
+    _maxCamFrequency: 1
+    _camShakeDuration: 0.2
+  _shootingCooldown: 0.25
